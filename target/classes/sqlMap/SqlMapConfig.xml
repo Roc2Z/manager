@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="userBean" type="manager.common.bean.UserBean"/>
+		<typeAlias alias="adsBean" type="manager.ADV01.bean.AdsBean"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="sqlMap/LoginSqlMap.xml"/>
+		<mapper resource="sqlMap/ADV01SqlMap.xml"/>
+	</mappers>
+</configuration>
